@@ -35,7 +35,7 @@ with open(csvpath) as csvfile:
             CandidatesVotes[row[2]] = 1
 
 # Place all votes into a dictionary (one for the candidate name and one for the vote count)
-#I utilized the following source to learn how to iterate through a dictionary:
+# I utilized the following source to learn how to iterate through a dictionary:
 # “How to Iterate through a Dictionary in Python.” Real Python, 1 Apr. 2023, realpython.com/iterate-through-dictionary-python/#iterating-
 # through-items. 
 for key, value in CandidatesVotes.items():
