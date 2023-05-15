@@ -35,6 +35,7 @@ with open(csvpath) as csvfile:
         if(TotalMonth == 1):
             # Set previous month's profit/loss to current month's profit/loss
             PreviousProfitLosses = CurrentProfitLosses
+  
         # If any other month other than the first month
         else:
             # Compute the difference in the profit/loss from one month to the other
