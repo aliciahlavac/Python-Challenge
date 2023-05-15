@@ -9,7 +9,6 @@ CandidatesVotes = {}
 Candidates = []
 Votes = []
 VotesPercent = []
-WinnerVotes = 0
 
 # Set path to CSV file
 csvpath = os.path.join('Resources', 'election_data.csv')
