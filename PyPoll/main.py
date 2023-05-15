@@ -9,7 +9,6 @@ CandidatesVotes = {}
 Candidates = []
 Votes = []
 VotesPercent = []
-WinnerVotes = 0
 
 # Set path to CSV file
 csvpath = os.path.join('Resources', 'election_data.csv')
@@ -56,7 +55,7 @@ Complete = list(zip(Candidates, Votes, VotesPercent))
 for Candidate in Complete:
     # Compare candidate's number of votes with the maximum number of votes in the votes list to pick the winning candidate
     if Candidate[1] == max(Votes):
-        # Get the winning candidate's name from the candidate list
+        # Get the winning candidate's name from the candidate selection
         Winner = Candidate[0]
 
 #Print to terminal
