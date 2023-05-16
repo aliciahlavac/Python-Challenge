@@ -11,7 +11,7 @@ Votes = []
 VotesPercent = []
 
 # Set path to CSV file
-csvpath = os.path.join('Resources', 'election_data.csv')
+csvpath = os.path.join(os.path.dirname(__file__), 'resources', 'election_data.csv')
 
 # Read in the CSV file
 with open(csvpath) as csvfile:

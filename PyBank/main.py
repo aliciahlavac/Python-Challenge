@@ -12,7 +12,7 @@ CurrentProfitLosses = 0
 PreviousProfitLosses = 0
 
 # Set path to CSV file
-csvpath = os.path.join('Resources', 'budget_data.csv')
+csvpath = os.path.join(os.path.dirname(__file__), 'resources', 'budget_data.csv')
 
 # Read in the CSV file
 with open(csvpath) as csvfile:
